@@ -47,7 +47,6 @@ p{
 nav{
     background: transparent;
     position: absolute;
-    z-index: 100;
     top: 0;
     display: flex;
     flex-direction: row;
@@ -140,6 +139,7 @@ span{
     border-radius: 24px;
     padding: 2%;
     width: 70vw;
+    
 }
 
 #carousel{
@@ -183,8 +183,372 @@ span{
 }   
 }
 
+@media screen and (max-width: 1024px) {
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dune Rise';
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    z-index: 1;
+}
+
+main{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: bg-animation-small 15s linear infinite;
+}
+h1{
+    font-family: "Dune Rise";
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 5px 10px #e040fb;
+    font-size: calc(23px + 2vw);
+}
+
+p{
+    font-size: calc(1px + 1.2vw);
+    width: 90vw;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
 
 
+nav{
+    background: transparent;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+li{
+    list-style-type: none;
+    font-family: "Dune Rise";
+}
+
+a:hover{
+    color: #e040fb;
+}
+nav #logo{
+    width: 100px;
+    height: 40px;
+    
+    margin-left: 3vw;
+    background-image: url("img/logo.png");
+    background-size: cover;
+}
+
+
+#carousel .carousel img{
+    height: 20vh;
+}
+
+
+
+
+video{
+    width: 70vw;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+#video{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    
+}
+.videos a{
+    margin-top: 30px;
+}
+.videos a i{
+    margin-left: 20px;
+}
+.video-holder{
+    width: 70vw;
+    position: relative;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+span{
+    padding: 10px 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#carousel{
+    height:fit-content;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+#carousel .carousel{
+    height: 30vh;
+    
+}
+#carousel .carousel .carousel-item{
+    width: 40vw;
+}
+
+#gallery{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+}
+#gallery i{
+    margin-left: 20px;
+}
+
+#Characters{
+    height: fit-content;
+    padding-bottom: 40px;
+}
+
+#Characters .carousel img{
+    height: 25vh;   
+}
+#Characters .carousel {
+    height: 40vh;   
+}
+
+#Characters .carousel .carousel-item{
+    width: 30vw;
+    height: fit-content;
+    
+}
+
+
+#characters{
+    display: flex;
+    justify-content: center;
+}
+
+
+#characters a i{
+    margin-left: 20px;
+}   
+}
+@media screen and (max-width: 768px) {
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dune Rise';
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    z-index: 1;
+}
+
+main{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: bg-animation-small 15s linear infinite;
+}
+h1{
+    font-family: "Dune Rise";
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 5px 10px #e040fb;
+    font-size: calc(23px + 2vw);
+}
+
+p{
+    font-size: calc(1px + 1.2vw);
+    width: 90vw;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+
+nav{
+    background: transparent;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+li{
+    list-style-type: none;
+    font-family: "Dune Rise";
+}
+
+a:hover{
+    color: #e040fb;
+}
+nav #logo{
+    width: 100px;
+    height: 40px;
+    
+    margin-left: 3vw;
+    background-image: url("img/logo.png");
+    background-size: cover;
+}
+
+
+#carousel .carousel img{
+    height: 20vh;
+}
+
+
+
+
+video{
+    width: 70vw;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+#video{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    
+}
+.videos a{
+    margin-top: 30px;
+}
+.videos a i{
+    margin-left: 20px;
+}
+.video-holder{
+    width: 70vw;
+    position: relative;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+span{
+    padding: 10px 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#carousel{
+    height:fit-content;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+#carousel .carousel{
+    height: 30vh;
+    
+}
+#carousel .carousel .carousel-item{
+    width: 40vw;
+}
+
+#gallery{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+}
+#gallery i{
+    margin-left: 20px;
+}
+
+#Characters{
+    height: fit-content;
+    padding-bottom: 40px;
+}
+
+#Characters .carousel img{
+    height: 25vh;   
+}
+#Characters .carousel {
+    height: 40vh;   
+}
+
+#Characters .carousel .carousel-item{
+    width: 30vw;
+    height: fit-content;
+    
+}
+
+
+#characters{
+    display: flex;
+    justify-content: center;
+}
+
+
+#characters a i{
+    margin-left: 20px;
+}   
+}
 @media screen and (max-width: 480px) {
     body{
     margin: 0;
