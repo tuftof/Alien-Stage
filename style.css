@@ -1,0 +1,441 @@
+@font-face {
+    font-family: Dune Rise;
+    src: url("font/dune_rise/Dune_Rise.ttf");
+}
+
+@media screen and (min-width: 1025px){
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dune Rise';
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    z-index: 1;
+}
+
+main{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: bg-animation 15s linear infinite;
+}
+h1{
+    font-family: "Dune Rise";
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 5px 10px #e040fb;
+    font-size: calc(23px + 2vw);
+}
+
+p{
+    font-size: 10px;
+    width: 55VW;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+
+nav{
+    background: transparent;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+li{
+    list-style-type: none;
+    font-family: "Dune Rise";
+}
+
+a:hover{
+    color: #e040fb;
+}
+nav #logo{
+    width: 100px;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    margin-left: 3vw;
+    background-image: url("img/logo.png");
+    background-size: cover;
+}
+
+
+.carousel img{
+    height: 40vh;
+}
+
+#Characters .carousel img{
+    height: 50vh;
+}
+
+
+video{
+    width: 30vw;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+#video{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    
+}
+.videos a{
+    margin-top: 30px;
+}
+.videos a i{
+    margin-left: 20px;
+}
+.video-holder{
+    width: 30vw;
+    position: relative;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+span{
+    padding: 10px 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+
+.border{
+    border: solid 3px #8e24aa;
+    border-radius: 24px;
+    padding: 2%;
+    width: 70vw;
+}
+
+#carousel{
+    height: 90vh;
+}
+.carousel{
+    height: 80vh;
+}
+.carousel .carousel-item{
+    width: 30vw;
+}
+
+#Characters .carousel .carousel-item{
+    width: 15vw;
+}
+
+#gallery{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    transform: translate(0, -190%);    
+}
+#gallery i{
+    margin-left: 20px;
+}
+
+#Characters{
+    height: 95vh;
+}
+
+#Characters .carousel{
+    transform: translateY(-10%);
+}
+#characters{
+    display: flex;
+    justify-content: center;
+}
+
+#characters a i{
+    margin-left: 20px;
+}   
+}
+
+
+
+@media screen and (max-width: 480px) {
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dune Rise';
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    z-index: 1;
+}
+
+main{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: bg-animation-small 15s linear infinite;
+}
+h1{
+    font-family: "Dune Rise";
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 5px 10px #e040fb;
+    font-size: calc(23px + 2vw);
+}
+
+p{
+    font-size: calc(1px + 1.2vw);
+    width: 90vw;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+
+
+nav{
+    background: transparent;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+li{
+    list-style-type: none;
+    font-family: "Dune Rise";
+}
+
+a:hover{
+    color: #e040fb;
+}
+nav #logo{
+    width: 100px;
+    height: 40px;
+    
+    margin-left: 3vw;
+    background-image: url("img/logo.png");
+    background-size: cover;
+}
+
+
+#carousel .carousel img{
+    height: 20vh;
+}
+
+
+
+
+video{
+    width: 70vw;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+#video{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    
+}
+.videos a{
+    margin-top: 30px;
+}
+.videos a i{
+    margin-left: 20px;
+}
+.video-holder{
+    width: 70vw;
+    position: relative;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+span{
+    padding: 10px 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#carousel{
+    height:fit-content;
+    padding-bottom: 50px;
+}
+#carousel .carousel{
+    height: 30vh;
+    
+}
+#carousel .carousel .carousel-item{
+    width: 40vw;
+}
+
+#gallery{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 40px;
+}
+#gallery i{
+    margin-left: 20px;
+}
+
+#Characters{
+    height: fit-content;
+    padding-bottom: 40px;
+}
+
+#Characters .carousel img{
+    height: 25vh;
+}
+
+#Characters .carousel .carousel-item{
+    width: 30vw;
+    height: fit-content;
+}
+
+#characters{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+#characters a i{
+    margin-left: 20px;
+}   
+}
+
+
+
+
+
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
+}
+
+@keyframes bg-animation{
+    0%{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(31, 96, 134, 0.582)),
+        url("img/bg-pic.jpg");
+        transition: background-image 2s ease-in-out;
+    }
+    25%{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(31, 96, 134, 0.582)),
+        url("img/bg5.jpg");
+        transition: background-image 2s ease-in-out;
+    }
+    50%{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(31, 96, 134, 0.582)),
+        url("img/bg2.jpg");
+        transition: background-image 2s ease-in-out;
+    }
+    75%{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(31, 96, 134, 0.582)),
+        url("img/bg3.jpg"); 
+        transition: background-image 2s ease-in-out;
+    }
+    100%{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(31, 96, 134, 0.582)),
+        url("img/bg4.jpg");
+        transition: background-image 2s ease-in-out;
+        background-position: 0 20%;
+    }
+}
+@keyframes bg-animation-small{
+    0%{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(31, 96, 134, 0.582)),
+        url("img/bg6.jpg");
+        transition: background-image 2s ease-in-out;
+    }
+    25%{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(31, 96, 134, 0.582)),
+        url("img/bg7.jpg");
+        transition: background-image 2s ease-in-out;
+    }
+    50%{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(31, 96, 134, 0.582)),
+        url("img/bg8.jpg");
+        transition: background-image 2s ease-in-out;
+    }
+    75%{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(31, 96, 134, 0.582)),
+        url("img/bg9.jpg"); 
+        transition: background-image 2s ease-in-out;
+    }
+    100%{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(31, 96, 134, 0.582)),
+        url("img/bg10.jpg");
+        transition: background-image 2s ease-in-out;
+        background-position: 0 20%;
+    }
+}

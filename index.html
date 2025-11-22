@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alien Stage</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper ">
+        <a id="logo" class="brand-logo" href="index.html"></a>
+        <ul class="hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="video.html">Videos</a></li>
+            <li><a href="characters.html">Characters</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main>
+        <h1>Alien Stage</h1>
+        <p>Alien Stage, a reality audition program, has taken the alien world by storm, and its upcoming season is planned to be just as exciting. Contestants must sing for their survival, as the loser faces on-the-spot termination. As the competition heats up, a mysterious girl emerges, whose involvement may hold the key to humanity's fate...</p>
+    </main>
+
+    <section class="center blue-grey darken-4 center" id="carousel">
+        <div class="carousel center">
+            <a class="carousel-item"><img src="img/carousel/pic1.jpg"></a>
+            <a class="carousel-item"><img src="img/carousel/pic2.jpg"></a>
+            <a class="carousel-item"><img src="img/carousel/pic3.jpg"></a>
+            <a class="carousel-item"><img src="img/carousel/pic4.jpg"></a>
+            <a class="carousel-item"><img src="img/carousel/pic5.jpg"></a>
+            <a class="carousel-item"><img src="img/carousel/pic6.jpg"></a>
+            <a class="carousel-item"><img src="img/carousel/pic7.jpg"></a>
+            <a class="carousel-item"><img src="img/carousel/pic8.jpg"></a>
+            <a class="carousel-item"><img src="img/carousel/pic9.jpg"></a>
+    
+        </div>
+         <div id="gallery">
+            <a href="gallery.html" class="valign-wrapper">Go to Gallery
+                <i class="material-icons prefix ">forward</i>
+            </a>
+        </div>      
+    </section>
+    
+    <section class="blue-grey darken-4" id="video">
+        <div class="border">
+
+            <div class="videos">
+                <div class="video-holder purple darken-2">
+                    <video src="videos/round1.mp4" controls muted autoplay loop></video>
+                    <span>My Clematis</span>
+                </div>
+                <div class="video-holder purple darken-2 hide-on-small-only">
+                    <video src="videos/round2.mp4" controls muted autoplay loop></video>
+                    <span>Unknown</span>
+                </div>
+                <a href="video.html" class="valign-wrapper">Go to Videos
+                    <i class="material-icons prefix ">forward</i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="center blue-grey darken-4 center" id="Characters">
+        <div class="carousel center">
+            <a class="carousel-item"><img src="img/Mizi-char.png">Mizi</a>
+            <a class="carousel-item"><img src="img/Sua-char.png">Sua</a>
+            <a class="carousel-item"><img src="img/till-char.png">Till</a>
+            <a class="carousel-item"><img src="img/ivan-char.png">Ivan</a>
+            <a class="carousel-item"><img src="img/luka-char.png">Luka</a>
+            <a class="carousel-item"><img src="img/hyuna-char.png">Hyuna</a>
+        </div>
+         <div id="characters">
+            <a href="characters.html" class="valign-wrapper">Go to Gallery
+                <i class="material-icons prefix ">forward</i>
+            </a>
+        </div>      
+    </section>
+  
+
+
+   
+
+
+
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="materialize/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+</html>
