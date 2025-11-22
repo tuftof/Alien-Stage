@@ -319,6 +319,7 @@ span{
 #carousel{
     height:fit-content;
     padding-bottom: 50px;
+    padding-top: 40px;
 }
 #carousel .carousel{
     height: 30vh;
@@ -332,7 +333,7 @@ span{
     display: flex;
     width: 100%;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 #gallery i{
     margin-left: 20px;
@@ -344,18 +345,22 @@ span{
 }
 
 #Characters .carousel img{
-    height: 25vh;
+    height: 25vh;   
+}
+#Characters .carousel {
+    height: 40vh;   
 }
 
 #Characters .carousel .carousel-item{
     width: 30vw;
     height: fit-content;
+    
 }
+
 
 #characters{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 
