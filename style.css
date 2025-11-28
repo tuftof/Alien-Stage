@@ -4,7 +4,7 @@
 }
 
 @media screen and (min-width: 1025px){
-    body{
+body{
     margin: 0;
     padding: 0;
     font-family: 'Dune Rise';
@@ -184,7 +184,7 @@ span{
 }
 
 @media screen and (max-width: 1024px) {
-    body{
+body{
     margin: 0;
     padding: 0;
     font-family: 'Dune Rise';
@@ -224,7 +224,6 @@ p{
     line-height: 30px;
 }
 
-
 nav{
     background: transparent;
     position: absolute;
@@ -237,7 +236,17 @@ nav{
     backdrop-filter: blur(10px);
     justify-content: center;
     align-items: center;
-    
+}
+nav #menu{
+    position: absolute;
+    left: 0;
+}
+
+#mobile-menu li a{
+    color: #fff;
+}
+#mobile-menu{
+    padding: 30px 0;
 }
 
 a{
@@ -256,8 +265,7 @@ a:hover{
 }
 nav #logo{
     width: 100px;
-    height: 40px;
-    
+    height: 40px; 
     margin-left: 3vw;
     background-image: url("img/logo.png");
     background-size: cover;
@@ -350,7 +358,7 @@ span{
 }
 
 #Characters .carousel .carousel-item{
-    width: 30vw;
+    width: 25vw;
     height: fit-content;
     
 }
@@ -422,7 +430,10 @@ nav{
     align-items: center;
     
 }
-
+nav #menu{
+    position: absolute;
+    right: 0;
+}
 a{
     text-decoration: none;
     color: white;
@@ -605,7 +616,10 @@ nav{
     align-items: center;
     
 }
-
+nav #menu{
+    position: absolute;
+    right: 0;
+}
 a{
     text-decoration: none;
     color: white;
