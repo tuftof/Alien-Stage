@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -63,47 +63,41 @@ nav #logo{
     background-image: url("img/logo.png");
     background-size: cover;
 }
-section{
-    padding-top: 10vh;
-    display: flex;
-    justify-content: center;
-}
-.poster-holder{
-    display: flex;
-    justify-content: center;
-    gap: 3%;
-    width: 70vw;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
-.poster{
+main{
+    padding: 10vh 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 5%;
+    height: fit-content;
 }
-section li{
-    max-width: 33.3%;
-    border-radius: 24px;
-    margin-top: 20px;
-    animation: up-and-down 2.5s alternate infinite;
-    transition: transform;
+.img-frame{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 5vh;
+    background-size: cover;
+    background-position: center;
 }
-
 
 img{
-    width: 18vw;
-    height: 35vh;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-}
-span{
-    padding: 10px 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
-section li:hover{
-    scale: 1.03;
+.char-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 50%;
+    font-size: 16px;
+}
+
+p{
+    font-family: Georgia;
 }
 }
 @media screen and (max-width: 1024px) {
@@ -164,46 +158,40 @@ nav #menu{
     padding: 30px 0;
 }
 
-section{
-    padding-top: 10vh;
+main{
+    padding: 10vh 0;
     display: flex;
-    justify-content: center;
-}
-.poster-holder{
-    display: flex;
-    justify-content: center;
-    gap: 3%;
-    flex-wrap: wrap;
-    width: 80vw;
-}
-
-.poster{
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 5%;
+    height: fit-content;
 }
-section li{
-    max-width: 33.3%;
-    border-radius: 24px;
-    margin-top: 20px;
-    animation: up-and-down 2.5s alternate infinite;
-    transition: transform;
+.img-frame{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 5vh;
+    background-size: cover;
+    background-position: center;
 }
-
 
 img{
-    width: 25vw;
-    height: 35vh;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-}
-span{
-    padding: 10px 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
-section li:hover{
-    scale: 1.03;
+.char-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 50%;
+    font-size: 16px;
+}
+
+p{
+    font-family: Georgia;
 }
 }
 @media screen and (max-width: 768px) {
@@ -264,48 +252,40 @@ nav #menu{
     padding: 30px 0;
 }
 
-section{
-    padding-top: 10vh;
+main{
+    padding: 10vh 0;
     display: flex;
-    justify-content: center;
-}
-.poster-holder{
-    overflow: scroll;
-    display: flex;
-    justify-content: center;
-    gap: 3%;
-    flex-wrap: wrap;
-    width: 90vw;
-}
-
-.poster{
-    display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    gap: 5%;
+    height: fit-content;
 }
-section li{
-    border-radius: 24px;
-    margin-top: 20px;
-    animation: up-and-down 2.5s alternate infinite;
-    transition: transform;
-    width: 40vw;
-    height: auto;
+.img-frame{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 5vh;
+    background-size: cover;
+    background-position: center;
 }
-
 
 img{
-    width: 30vw;
-    height: 20vh;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-}
-span{
-    padding: 10px 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
-section li:hover{
-    scale: 1.03;
+.char-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 80%;
+    font-size: 16px;
+}
+
+p{
+    font-family: Georgia;
 }
 }
 @media screen and (max-width: 480px) {
@@ -366,58 +346,39 @@ nav #menu{
     padding: 30px 0;
 }
 
-section{
-    padding-top: 10vh;
+main{
+    padding: 10vh 0;
     display: flex;
-    justify-content: center;
-    overflow: auto;
-}
-.poster-holder{
-    overflow: scroll;
-    display: flex;
-    justify-content: center;
-    gap: 5%;
-    flex-direction: row;
-    width: 100vw;
-}
-
-.poster{
-    display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    gap: 5%;
+    height: fit-content;
 }
-section li{
-    border-radius: 24px;
-    margin-top: 20px;
-    animation: up-and-down 2.5s alternate infinite;
-    transition: transform;
-    width: 34vw;
+.img-frame{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 5vh;
+    background-size: cover;
+    background-position: center;
 }
-
 
 img{
-    width: 33vw;
-    height: 20vh;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-}
-span{
-    padding: 10px 0;
-    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
-section li:hover{
-    scale: 1.03;
+.char-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 80%;
+    font-size: 16px;
 }
+
+p{
+    font-family: Georgia;
 }
-
-
-
-@keyframes up-and-down{
-    from{
-        transform: translateY(0)
-    }to{
-        transform: translateY(-2%)
-    }
 }
