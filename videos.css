@@ -202,9 +202,15 @@ nav #logo{
 
 nav #menu{
     position: absolute;
-    left: 0;
+    right: 0;
 }
 
+#mobile-menu li a{
+    color: #fff;
+}
+#mobile-menu{
+    padding: 30px 0;
+}
 .video-box{
     height: 100%;
     padding: 10% 0;
@@ -298,6 +304,12 @@ nav #menu{
     right: 0;
 }
 
+#mobile-menu li a{
+    color: #fff;
+}
+#mobile-menu{
+    padding: 30px 0;
+}
 a{
     text-decoration: none;
     color: white;
@@ -448,6 +460,12 @@ nav #logo{
     background-size: cover;
 }
 
+#mobile-menu li a{
+    color: #fff;
+}
+#mobile-menu{
+    padding: 30px 0;
+}
 
 .video-box{
     height: 100%;
