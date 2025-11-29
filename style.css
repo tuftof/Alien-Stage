@@ -3,6 +3,17 @@
     src: url("font/dune_rise/Dune_Rise.ttf");
 }
 
+
+body *{
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 @media screen and (min-width: 1025px){
 body{
     margin: 0;
@@ -822,3 +833,6 @@ span{
         background-position: 0 20%;
     }
 }
+
+
+
