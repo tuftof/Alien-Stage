@@ -8,7 +8,7 @@ body{
     padding: 0;
     font-family: 'Dune Rise';
     color: white;
-    overflow: hidden;
+    overflow: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.557), rgba(0, 0, 0, 0.557)), url(img/bg-char.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,8 +71,9 @@ section{
     display: flex;
     justify-content: center;
     gap: 3%;
-    flex-wrap: wrap;
     width: 70vw;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .poster{
@@ -287,6 +288,8 @@ section li{
     margin-top: 20px;
     animation: up-and-down 2.5s alternate infinite;
     transition: transform;
+    width: 40vw;
+    height: auto;
 }
 
 
@@ -366,14 +369,15 @@ section{
     padding-top: 10vh;
     display: flex;
     justify-content: center;
+    overflow: auto;
 }
 .poster-holder{
     overflow: scroll;
     display: flex;
     justify-content: center;
     gap: 5%;
-    flex-wrap: wrap;
-    width: 95vw;
+    flex-direction: row;
+    width: 100vw;
 }
 
 .poster{
@@ -387,11 +391,12 @@ section li{
     margin-top: 20px;
     animation: up-and-down 2.5s alternate infinite;
     transition: transform;
+    width: 34vw;
 }
 
 
 img{
-    width: 30vw;
+    width: 33vw;
     height: 20vh;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
