@@ -605,7 +605,7 @@ p{
 nav{
     background: transparent;
     position: absolute;
-    z-index: 100;
+    z-index: 1;
     top: 0;
     display: flex;
     flex-direction: row;
