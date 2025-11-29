@@ -202,7 +202,7 @@ nav #logo{
 
 nav #menu{
     position: absolute;
-    right: 0;
+    left: 0;
 }
 
 .video-box{
