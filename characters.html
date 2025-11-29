@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="characters.css">
+    <title>Alien Stage</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper">
+            <a href="#" data-target="mobile-menu" class="sidenav-trigger" id="menu">
+                <i class="material-icons">menu</i>
+            </a>
+            <a id="logo" class="brand-logo" href="index.html"></a>
+            <ul class="hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="characters.html">Characters</a></li>
+            </ul>
+        </nav>
+    </header>
+    <ul class="sidenav blue-grey darken-4 center" id="mobile-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="characters.html">Characters</a></li>
+    </ul>
+    
+    <section>
+        <div class="poster-holder">
+
+            <li class="teal lighten-2">
+                <a href="mizi.html" class="poster">
+                    <img src="img/poster/mizi.jpg" alt="">
+                    <span>Mizi</span>
+                </a>
+            </li>
+            <li class="teal lighten-2">
+                <a href="sua.html" class="poster">
+                    <img src="img/poster/sua.jpg" alt="">
+                    <span>Sua</span>
+                </a>
+            </li>
+            <li class="teal lighten-2">
+                <a href="ivan.html" class="poster">
+                    <img src="img/poster/ivan.jpg" alt="">
+                    <span>Ivan</span>
+                </a>
+            </li>
+            <li class="teal lighten-2">
+                <a href="till.html" class="poster">
+                    <img src="img/poster/till.jpg" alt="">
+                    <span>Till</span>
+                </a>
+            </li>
+            <li class="teal lighten-2">
+                <a href="hyuna.html" class="poster">
+                    <img src="img/poster/hyuna.jpg" alt="">
+                    <span>Hyuna</span>
+                </a>
+            </li>
+            <li class="teal lighten-2">
+                <a href="luka.html" class="poster">
+                    <img src="img/poster/luka.jpg" alt="">
+                    <span>Luka</span>
+                </a>
+            </li>
+                
+            
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="materialize/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+</html>

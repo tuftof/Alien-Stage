@@ -12,6 +12,7 @@ body{
                      url(videos/background.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
 }
 
@@ -24,30 +25,7 @@ body{
     position: relative;
 }
 
-main{
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    animation: bg-animation 15s linear infinite;
-}
-h1{
-    font-family: "Dune Rise";
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 5px 10px #e040fb;
-    font-size: calc(23px + 2vw);
-}
-
-p{
-    font-size: 10px;
-    width: 55VW;
-    text-align: center;
-    color: white;
-    line-height: 30px;
-}
+    
 
 
 nav{
@@ -202,7 +180,7 @@ nav #logo{
 
 nav #menu{
     position: absolute;
-    right: 0;
+    left: 0;
 }
 
 #mobile-menu li a{
@@ -301,7 +279,7 @@ nav{
 
 nav #menu{
     position: absolute;
-    right: 0;
+    left: 0;
 }
 
 #mobile-menu li a{
@@ -434,7 +412,7 @@ nav{
 
 nav #menu{
     position: absolute;
-    right: 0;
+    left: 0;
 }
 
 a{
