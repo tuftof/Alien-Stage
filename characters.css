@@ -386,7 +386,7 @@ section{
     justify-content: center;
     gap: 5%;
     flex-direction: row;
-    width: 100vw;
+    width: fit-content;
 }
 
 .poster{
@@ -394,13 +394,14 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: fit-content;
 }
 section li{
     border-radius: 24px;
     margin-top: 20px;
     animation: up-and-down 2.5s alternate infinite;
     transition: transform;
-    width: 34vw;
+    flex: 50%;
 }
 
 
